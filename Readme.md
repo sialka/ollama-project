@@ -1,8 +1,10 @@
 #  🐑 IA Local
 
+
 ## 🐋 Docker
 
-📋 *Interpretador*
+
+### 📋 Interpretador
 
 > Motor para processar os modelos
 
@@ -10,7 +12,7 @@
 docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 ```
 
-🗂️ *Modelos*
+### 🗂️ Baixando os Modelos
 
 Para baixar os modelos abaixo, o container ollama/ollama precisa estar ligado.
 
@@ -28,7 +30,7 @@ $ docker exec -it ollama ollama run gemma3
 $ docker exec -it ollama ollama run gemma4
 ```
 
-🖥️ *Servidor*
+### 🖥️ Servidor
 
 > Chat para utilizar os modelos
 
@@ -43,10 +45,11 @@ docker run -d -p 3000:8080 \
 
 ---
 
+
 ##  🕹️ Local
 
 
-🔬 *Laboratório*
+### 🔬 Laboratório
 
 Crie uma pasta e coloque os arquivos mencionados abaixo:
 
@@ -57,7 +60,7 @@ Exemplo:
 ```
 
 
-🖥️ *Servidor*
+### 🖥️ Servidor
 
 > Baixando o servidor
 
@@ -81,11 +84,7 @@ llamafile-0.10.3 (ou superior)
 ```
 
 
- ├─
- └─
-
-
-🗂️ *Modelos*
+### 🗂️ Baixe os Modelos
 
 Acesse https://huggingface.co/ e em Libraries procure por GGUF.
 
@@ -112,28 +111,29 @@ Exemplos:
 ```
 
 
-
-🔥 *Execução*
+### 🔥 Subindo o Servidor
 
 
 Renomeio o llamafile-0.10.3 para llamafile.exe
 
 Sintaxe do comando no terminal:
 
+```bash
 $ llamafile.exe --server --model <model>
+```
 
 
 🖼️ *No Windows*
 
 Exemplo:
 
-```
+```bash
 $ llamafile.exe --server --model qwen3-4b-thinking-2507.Q4_K_M.gguf
 ```
 
 🐧 *No Linux*
 
-```
+```bash
 $ chmod +x llamafile
 $ .\llamafile --server --model qwen3-4b-thinking-2507.Q4_K_M.gguf
 ```
