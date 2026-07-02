@@ -1,6 +1,6 @@
 #  🐑 Inteligência Artificial
 
-## Instalando o Ollama
+## 💡 Instalando o Ollama
 
 
 **Linux**
