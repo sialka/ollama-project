@@ -5,11 +5,15 @@
 
 **Linux**
 
+```bash
 curl -fsSL https://ollama.com/install.sh | sh
+```
 
 **Windows**
 
+```bash
 irm https://ollama.com/install.ps1 | iex
+```
 
 ou 
 
@@ -20,10 +24,10 @@ https://ollama.com/download/OllamaSetup.exe
 
 | Comando | Descrição |
 | :--- | :--- |
-| ollama -v | Exibe a versão. |
-| ollama pull <modelo> | Baixa o modelo. |
-| ollama list | Lista os modelos. |
-| ollama rm <name> | Remove o modelo. |
+| ```ollama -v``` | Exibe a versão. |
+| ```bashollama pull <modelo>``` | Baixa o modelo. |
+| ```bashollama list``` | Lista os modelos. |
+| ```bashollama rm <name>``` | Remove o modelo. |
 
 # Executando
 
