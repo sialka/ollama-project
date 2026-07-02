@@ -25,9 +25,10 @@ https://ollama.com/download/OllamaSetup.exe
 | **Sintaxe* | *Descrição* |
 | :--- | :--- |
 | ```ollama -v``` | Exibe a versão. |
-| ```bashollama pull <modelo>``` | Baixa o modelo. |
-| ```bashollama list``` | Lista os modelos. |
-| ```bashollama rm <name>``` | Remove o modelo. |
+| ```ollama pull <modelo>``` | Baixa o modelo. |
+| ```ollama list``` | Lista os modelos. |
+| ```ollama rm <name>``` | Remove o modelo. |
+| ```ollama run <name>``` | Executa o modelo. |
 
 ## 🔥 Executando
 
