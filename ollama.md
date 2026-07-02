@@ -20,24 +20,24 @@ ou
 https://ollama.com/download/OllamaSetup.exe
 
 
-## Principais Comandos
+## 🏷️ Principais Comandos
 
-| Comando | Descrição |
+| **Sintaxe* | *Descrição* |
 | :--- | :--- |
 | ```ollama -v``` | Exibe a versão. |
 | ```bashollama pull <modelo>``` | Baixa o modelo. |
 | ```bashollama list``` | Lista os modelos. |
 | ```bashollama rm <name>``` | Remove o modelo. |
 
-# Executando
+## 🔥 Executando
 
 ```bash
 $ OLLAMA_HOST=127.0.0.1:11435 ollama serve
 ``` 
 
-## Baixando Modelos
+## 📂 Baixando Modelos
 
-Principais modelos do Gemma 4
+Principais modelos do **Gemma 4**.
 
 ```bash
 $ ollama pull gemma4:e2b
